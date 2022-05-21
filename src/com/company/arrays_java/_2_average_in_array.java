@@ -2,7 +2,7 @@ package com.company.arrays_java;
 
 import java.util.Scanner;
 
-public class average_in_array {
+public class _2_average_in_array {
     public static void average(int[] array){
         double sum=0;
         for (int j : array) {

@@ -1,6 +1,6 @@
 package com.company.arrays_java;
 import java.util.Scanner;
-public class linear_search {
+public class _5_linear_search {
     public static int search(int[] array,int k){
         for(int i=0;i<array.length;i++){
             if(array[i]==k){

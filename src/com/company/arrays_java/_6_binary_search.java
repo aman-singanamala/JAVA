@@ -1,6 +1,6 @@
 package com.company.arrays_java;
 import java.util.Scanner;
-public class binary_search {
+public class _6_binary_search {
     public static int search(int[] array,int k){
         int start=0;
         int end=array.length-1;
