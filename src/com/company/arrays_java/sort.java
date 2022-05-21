@@ -1,4 +1,4 @@
-package com.company.arrays;
+package com.company.arrays_java;
 
 // Also known as Sinking Sort or Exchange Sort
 import java.util.Scanner;
