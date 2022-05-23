@@ -20,7 +20,7 @@
 #### 16. Write a Java program to add two matrices of the same size. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_16_add_two_matrices.java))
 #### 17. Write a Java program to convert an array to ArrayList. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_17_convert_array_to_arraylist.java))
 #### 18. Write a Java program to find all pairs of elements in an array whose sum is equal to a specified number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_18_sumpair.java))
-#### 18. Write a Java program to find all pairs of elements in an array whose sum is equal to a specified number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_18_sumpair.java))
+#### 19. Write a Java program to test the equality of two arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_19_equality_of_arrays.java))
 
 
 
