@@ -21,7 +21,8 @@
 #### 17. Write a Java program to convert an array to ArrayList. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_17_convert_array_to_arraylist.java))
 #### 18. Write a Java program to find all pairs of elements in an array whose sum is equal to a specified number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_18_sumpair.java))
 #### 19. Write a Java program to test the equality of two arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_19_equality_of_arrays.java))
-
+#### 20. Write a Java program to find a missing number in an array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_20_missing_natural_number.java))
+#### 21. Write a Java program to find common elements from three sorted (in non-decreasing order) arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_21_common_elements_in_3sorted_arrays.java))
 
 
 ## [SORTINGS](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
