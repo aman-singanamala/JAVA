@@ -23,7 +23,9 @@
 #### 19. Write a Java program to test the equality of two arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_19_equality_of_arrays.java))
 #### 20. Write a Java program to find a missing number in an array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_20_missing_natural_number.java))
 #### 21. Write a Java program to find common elements from three sorted (in non-decreasing order) arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_21_common_elements_in_3sorted_arrays.java))
-
+#### 22. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_22_move_zeros_to_end.java))
+#### 23. Write a Java program to count Even & Odd Elements of an Array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_23_even_odd_nums_inarray.java))
+#### 24. Write a Java program to Store Even & Odd Elements of an Array into Separate Arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_24_separate_even_odd_array.java)) 
 
 ## [SORTINGS](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
