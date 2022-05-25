@@ -8,6 +8,8 @@ public class _20_missing_natural_number {
         }
         System.out.println(sum);
     }
+
+
     public static void main(String[] args) {
         int[] a={1,2,3,5,6,7,8,9,10};
         find(a);
