@@ -30,14 +30,7 @@
 ## [SORTINGS](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
 ### [Bubble Sort](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings/bubble_sort)
-
-
-
-
-
-
-
-1. Bubble Sort ([Code]())
+#### 1. Bubble Sort ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/sortings/bubble_sort/sort.java))
 
 
 
