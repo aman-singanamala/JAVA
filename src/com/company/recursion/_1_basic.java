@@ -23,5 +23,4 @@ public class _1_basic {
     static void print5(int n){
         System.out.println(n);
     }
-
 }
