@@ -3,8 +3,8 @@ public class _20_missing_natural_number {
     public static void find(int[] array){
         int n= array.length;
         int sum=((n+1)*(n+2))/2;
-        for(int i=0;i< array.length;i++){
-            sum=sum-array[i];
+        for (int j : array) {
+            sum = sum - j;
         }
         System.out.println(sum);
     }
