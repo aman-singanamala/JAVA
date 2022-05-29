@@ -41,3 +41,4 @@
 
 ## Recursion
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
+#### 1. Fibonacci Series. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_2_fibonacci_number_nth.java))
