@@ -34,7 +34,10 @@
 
 
 
+<br>
 
+### [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList)
+#### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
 
 <br>
 <br>
