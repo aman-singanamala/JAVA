@@ -41,4 +41,12 @@
 
 ## Recursion
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
-#### 1. Fibonacci Series. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_2_fibonacci_number_nth.java))
+#### 2. Fibonacci Series. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_2_fibonacci_number_nth.java))
+#### 3. Print Numbers from N to 1. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_3_print_N_to_1.java))
+#### 4. Print Numbers from 1 to N. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_4_print_1_to_N.java))
+#### 5. Factorial of a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_5_factorial_of_anumber.java))
+#### 6. Sum of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_6_sum_of_digits.java))
+#### 7. Product of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_7_product_of_digits.java))
+#### 8. Reverse of a Number.  [Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_8_reverse_a_number.java))
+
+
