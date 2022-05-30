@@ -36,13 +36,13 @@
 
 <br>
 
-### [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList)
+## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList)
 #### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
 
 <br>
 <br>
 
-## Recursion
+## [Recursion](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/recursion)
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
 #### 2. Fibonacci Series. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_2_fibonacci_number_nth.java))
 #### 3. Print Numbers from N to 1. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_3_print_N_to_1.java))
