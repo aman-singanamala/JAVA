@@ -1,6 +1,6 @@
 <h1 align="center">JAVA</h1>  
 
-## [ARRAYS_JAVA](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/arrays_java)  :computer:
+## [Arrays_java](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/arrays_java)  :computer:
 
 #### 1. Write a Java program to sum values of an array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_1_sum_of_values_in_array.java))
 #### 2. Write a Java program to calculate the average value of array elements. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_2_average_in_array.java))
@@ -27,7 +27,7 @@
 #### 23. Write a Java program to count Even & Odd Elements of an Array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_23_even_odd_nums_inarray.java))
 #### 24. Write a Java program to Store Even & Odd Elements of an Array into Separate Arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_24_separate_even_odd_array.java)) 
 
-## [SORTINGS](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
+## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
 ### [Bubble Sort](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings/bubble_sort)
 #### 1. Bubble Sort ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/sortings/bubble_sort/sort.java))
@@ -36,13 +36,13 @@
 
 <br>
 
-## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList)
+## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList) :computer:
 #### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
 
 <br>
 <br>
 
-## [Recursion](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/recursion)
+## [Recursion](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/recursion) :computer:
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
 #### 2. Fibonacci Series. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_2_fibonacci_number_nth.java))
 #### 3. Print Numbers from N to 1. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_3_print_N_to_1.java))
