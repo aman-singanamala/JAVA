@@ -39,7 +39,8 @@
 
 
 
-<br> <!-- SORTINGS ---------------------------------------------------------------------   -->
+<br> 
+<!--  --SORTINGS ---------------------------------------------------------------------   -->
 
 ## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
