@@ -1,5 +1,10 @@
 <h1 align="center">JAVA</h1>  
 
+
+
+<!-- ARRAYS JAVA ---------------------------------------------------------------------   -->
+
+
 ## [Arrays_java](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/arrays_java)  :computer:
 
 #### 1. Write a Java program to sum values of an array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_1_sum_of_values_in_array.java))
@@ -34,7 +39,7 @@
 
 
 
-<br>
+<br> <!-- SORTINGS ---------------------------------------------------------------------   -->
 
 ## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
@@ -44,12 +49,15 @@
 
 
 <br>
+<!-- Linked List ---------------------------------------------------------------------   -->
+
 
 ## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList) :computer:
 #### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
 
 <br>
 <br>
+<!-- recursion ---------------------------------------------------------------------   -->
 
 ## [Recursion](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/recursion) :computer:
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
@@ -60,5 +68,4 @@
 #### 6. Sum of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_6_sum_of_digits.java))
 #### 7. Product of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_7_product_of_digits.java))
 #### 8. Reverse of a Number.  [Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_8_reverse_a_number.java))
-
 
