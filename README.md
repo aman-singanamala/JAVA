@@ -1,5 +1,10 @@
 <h1 align="center">JAVA</h1>  
 
+
+
+<!-- ARRAYS JAVA ---------------------------------------------------------------------   -->
+
+
 ## [Arrays_java](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/arrays_java)  :computer:
 
 #### 1. Write a Java program to sum values of an array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_1_sum_of_values_in_array.java))
@@ -26,6 +31,16 @@
 #### 22. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_22_move_zeros_to_end.java))
 #### 23. Write a Java program to count Even & Odd Elements of an Array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_23_even_odd_nums_inarray.java))
 #### 24. Write a Java program to Store Even & Odd Elements of an Array into Separate Arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_24_separate_even_odd_array.java)) 
+#### 25. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_25_triple_sum.java))
+#### 26. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_26_triple_sum.java))
+#### 27. Kth smallest element ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_27_kth_smallest_element.java))
+#### 28. Sort an array of 0s, 1s and 2s  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_28_sort_0s_1s_2s.java)) ([From](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1))
+
+
+
+
+<br> 
+<!--  --SORTINGS ---------------------------------------------------------------------   -->
 
 ## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
@@ -35,12 +50,15 @@
 
 
 <br>
+<!-- Linked List ---------------------------------------------------------------------   -->
+
 
 ## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList) :computer:
 #### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
 
 <br>
 <br>
+<!-- recursion ---------------------------------------------------------------------   -->
 
 ## [Recursion](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/recursion) :computer:
 #### 1. Basic Example. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_1_basic.java))
@@ -51,5 +69,4 @@
 #### 6. Sum of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_6_sum_of_digits.java))
 #### 7. Product of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_7_product_of_digits.java))
 #### 8. Reverse of a Number.  [Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_8_reverse_a_number.java))
-
 
