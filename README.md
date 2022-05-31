@@ -26,6 +26,15 @@
 #### 22. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_22_move_zeros_to_end.java))
 #### 23. Write a Java program to count Even & Odd Elements of an Array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_23_even_odd_nums_inarray.java))
 #### 24. Write a Java program to Store Even & Odd Elements of an Array into Separate Arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_24_separate_even_odd_array.java)) 
+#### 25. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_25_triple_sum.java))
+#### 26. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_26_triple_sum.java))
+#### 27. Kth smallest element ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_27_kth_smallest_element.java))
+#### 28. Sort an array of 0s, 1s and 2s  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_28_sort_0s_1s_2s.java)) ([From](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1))
+
+
+
+
+<br>
 
 ## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
 
