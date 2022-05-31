@@ -1,12 +1,7 @@
 package com.company.arrays_java;
 public class _31_largest_sum {
     public static int max(int a,int b){
-        if(a>b){
-            return a;
-        }
-        else{
-            return b;
-        }
+        return Math.max(a, b);
     }
     public static int algorithm(int[] array){
         int max_so_far=array[0];
@@ -18,7 +13,7 @@ public class _31_largest_sum {
         return max_so_far;
     }
     public static void main(String[] args){
-        int a[]={-2, -3, 4, -1, -2, 1, 5, -3};
+        int[] a ={-2, -3, 4, -1, -2, 1, 5, -3};
         int max_sum= algorithm(a);
         System.out.println(max_sum);
     }
