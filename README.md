@@ -31,13 +31,13 @@
 #### 22. Write a Java program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_22_move_zeros_to_end.java))
 #### 23. Write a Java program to count Even & Odd Elements of an Array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_23_even_odd_nums_inarray.java))
 #### 24. Write a Java program to Store Even & Odd Elements of an Array into Separate Arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_24_separate_even_odd_array.java)) 
-#### 25. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_25_triple_sum.java))
-#### 26. Triple sum ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_26_triple_sum.java))
-#### 27. Kth smallest element ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_27_kth_smallest_element.java))
-#### 28. Sort an array of 0s, 1s and 2s  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_28_sort_0s_1s_2s.java)) ([From](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1))
-
-
-
+#### 25. Triple sum. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_25_triple_sum.java))
+#### 26. Triple sum. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_26_triple_sum.java))
+#### 27. Kth smallest element. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_27_kth_smallest_element.java))
+#### 28. Sort an array of 0s, 1s and 2s. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_28_sort_0s_1s_2s.java)) ([From](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1))
+#### 29. Move all the negative elements to one side of the array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_29_move_numbers.java))([From](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1))
+#### 30. Find the Union and Intersection of the two sorted arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_30_union_of_arrays.java))([From](https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1))
+#### 31. To print the subarray with the maximum sum. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_31_largest_sum.java))([From](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1))
 
 <br> 
 <!--  --SORTINGS ---------------------------------------------------------------------   -->
