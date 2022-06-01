@@ -38,7 +38,8 @@
 #### 29. Move all the negative elements to one side of the array. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_29_move_numbers.java))([From](https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1))
 #### 30. Find the Union and Intersection of the two sorted arrays. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_30_union_of_arrays.java))([From](https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1))
 #### 31. To print the subarray with the maximum sum. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_31_largest_sum.java))([From](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1))
-
+#### 32. Program to cyclically rotate an array by one ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_32_rotation_of_array.java))([From](https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1))
+#### 33. Write a Java program to replace every element with the next greatest element (from right side) in a given array of integers. There is no element next to the last element, therefore replace it with -1. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/arrays_java/_33_replace_elements_naive_method.java))
 <br> 
 <!--  --SORTINGS ---------------------------------------------------------------------   -->
 
