@@ -56,7 +56,7 @@
 
 ## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList) :computer:
 #### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
-#### 2. Deletion First, Last and get he size of a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL2.java))
+#### 2. Deletion First, Last and get the size of a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL2.java))
 
 <br>
 <br>
