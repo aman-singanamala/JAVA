@@ -1,7 +1,7 @@
 package com.company.LinkedList;
-import java.io.*;
+
 //---------------------------------------------------------
-public class LL {
+public class LL1 {
     static Node head; //head of the list
     // Linked List Node
     // This class is static, so we can access anywhere [in main()]
@@ -59,7 +59,7 @@ public class LL {
     }
     // main() -----------------------------------------------------
     public static void main(String[] args) {
-        LL list = new LL();
+        LL1 list = new LL1();
         list.addFirst("Apple");
         list.addFirst("Bat");
         list.printlist();
