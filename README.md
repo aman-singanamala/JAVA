@@ -43,7 +43,7 @@
 <br> 
 <!--  --SORTINGS ---------------------------------------------------------------------   -->
 
-## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings)  :computer:
+## [Sortings](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings) :computer:
 
 ### [Bubble Sort](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/sortings/bubble_sort)
 #### 1. Bubble Sort ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/sortings/bubble_sort/sort.java))
@@ -72,3 +72,4 @@
 #### 7. Product of Digits in a Number. ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_7_product_of_digits.java))
 #### 8. Reverse of a Number.  [Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_8_reverse_a_number.java))
 
+<!-- okok -->
