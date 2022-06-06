@@ -2,7 +2,7 @@ package com.company.arrays_java;
 
 public class _34_greater_to_right {
     public static void main(String[] args){
-        int[] array= {10, 9, 14, 23, 15, 0, 9};
+        int[] array= {2, 7, 3, 5, 4, 6, 8};
         for (int i=0;i<array.length;i++){
             int j;
             for(j=i+1;j< array.length;j++){
