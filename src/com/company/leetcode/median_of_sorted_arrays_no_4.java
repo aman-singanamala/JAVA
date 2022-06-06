@@ -2,7 +2,7 @@ package com.company.leetcode;
 
 import java.util.Arrays;
 
-public class median_of_sorted_arrays {
+public class median_of_sorted_arrays_no_4 {
     public static double findMedianArrays(int[] nums1,int[] nums2){
         int m= nums1.length;
         int n= nums2.length;
