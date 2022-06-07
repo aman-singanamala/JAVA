@@ -87,6 +87,18 @@ Note: An element is leader if it is greater than all the elements to its right s
 
 
 ## [LEETCODE](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/leetcode) :computer:
-#### PROBLEM 1  :  1. Two Sum  : Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/two_sum_no_1.java)) ([From](https://leetcode.com/problems/two-sum/))
 
-#### PROBLEM 1672  :  1672. Richest Customer Wealth  :You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has. A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1672.java)) ([From](https://leetcode.com/problems/richest-customer-wealth/))
+<h3>PROBLEM 1</h3>  
+#### 1. Two Sum  : Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/two_sum_no_1.java)) ([From](https://leetcode.com/problems/two-sum/))
+
+
+
+<h3>PROBLEM 1672</h3>  
+#### 1672. Richest Customer Wealth  :You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has. A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1672.java)) ([From](https://leetcode.com/problems/richest-customer-wealth/))
+
+
+
+
+<h3>PROBLEM 1295</h3>  
+#### 1295. Find Numbers with Even Number of Digits  :Given an array nums of integers, return how many of them contain an even number of digits.([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1295.java)) ([From](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/))
+
