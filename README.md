@@ -117,7 +117,7 @@ Note: An element is leader if it is greater than all the elements to its right s
 
 
 
-#### <h3>PROBLEM 27</h3>  27. Remove Element.
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_on_27.java)) ([From](https://leetcode.com/problems/remove-element/))
+#### <h3>PROBLEM 27</h3> 27. Remove Element.
+([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_on_27.java))([From](https://leetcode.com/problems/remove-element/))
 
 
