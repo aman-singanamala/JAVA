@@ -86,38 +86,6 @@ Note: An element is leader if it is greater than all the elements to its right s
 <!-- okok -->
 
 
-## [LEETCODE](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/leetcode) :computer:
 
- 
-#### <h3>PROBLEM 1</h3>  1. Two Sum  : Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/two_sum_no_1.java)) ([From](https://leetcode.com/problems/two-sum/))
-
-
-
-
-#### <h3>PROBLEM 1672</h3>  35. Search Insert Position  :Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1672.java)) 
-([From](https://leetcode.com/problems/search-insert-position/))
-
-
-
-
-
-#### <h3>PROBLEM 1295</h3>  1295. Find Numbers with Even Number of Digits  :Given an array nums of integers, return how many of them contain an even number of digits.
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1295.java)) ([From](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/))
-
-
-
-#### <h3>PROBLEM 35</h3>  35.Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_35.java)) ([From](https://leetcode.com/problems/search-insert-position/))
-
-
-
-#### <h3>PROBLEM 26</h3>  26. Remove Duplicates from Sorted Array. 
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_26.java)) ([From](https://leetcode.com/problems/remove-duplicates-from-sorted-array/))
-
-
-
-#### <h3>PROBLEM 27</h3> 27. Remove Element.
-([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_on_27.java))([From](https://leetcode.com/problems/remove-element/))
 
 
