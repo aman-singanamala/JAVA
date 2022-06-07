@@ -66,7 +66,7 @@ Note: An element is leader if it is greater than all the elements to its right s
 
 
 ## [Linked List](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/LinkedList) :computer:
-#### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL.java))
+#### 1. Insertion First and Last in a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL1.java))
 #### 2. Deletion First, Last and get the size of a Linked List ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/LinkedList/LL2.java))
 
 <br>
