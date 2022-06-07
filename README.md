@@ -94,8 +94,9 @@ Note: An element is leader if it is greater than all the elements to its right s
 
 
 
-#### <h3>PROBLEM 1672</h3>  1672. Richest Customer Wealth  :You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has. A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1672.java)) 
-([From](https://leetcode.com/problems/richest-customer-wealth/))
+#### <h3>PROBLEM 1672</h3>  35. Search Insert Position  :Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1672.java)) 
+([From](https://leetcode.com/problems/search-insert-position/))
 
 
 
@@ -103,4 +104,11 @@ Note: An element is leader if it is greater than all the elements to its right s
 
 #### <h3>PROBLEM 1295</h3>  1295. Find Numbers with Even Number of Digits  :Given an array nums of integers, return how many of them contain an even number of digits.
 ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_1295.java)) ([From](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/))
+
+
+
+#### <h3>PROBLEM 35</h3>  35.Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/problem_no_35.java)) ([From](https://leetcode.com/problems/search-insert-position/))
+
+
 
