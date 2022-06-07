@@ -84,3 +84,9 @@ Note: An element is leader if it is greater than all the elements to its right s
 #### 8. Reverse of a Number.  [Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/recursion/_8_reverse_a_number.java))
 
 <!-- okok -->
+
+
+## [LEETCODE](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/leetcode) :computer:
+#### PROBLEM 1  :  1. Two Sum  : Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  ([Code](https://github.com/aman-singanamala/JAVA/blob/master/src/com/company/leetcode/two_sum_no_1.java)) ([From](https://leetcode.com/problems/two-sum/))
+
+
