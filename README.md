@@ -2,8 +2,6 @@
 
 
 
-<!-- ARRAYS JAVA ---------------------------------------------------------------------   -->
-
 
 ## [Arrays_java](https://github.com/aman-singanamala/JAVA/tree/master/src/com/company/arrays_java)  :computer:
 
