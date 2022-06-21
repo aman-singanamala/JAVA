@@ -79,7 +79,6 @@ public class LL3 {
             this.next = next;
         }
     }
-
     public static void main(String[] args) {
         LL3 list = new LL3();
         list.insertFirst(3);
