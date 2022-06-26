@@ -16,6 +16,4 @@ public class problem_no_977 {
             System.out.print(ans[i]+" ");
         }
     }
-
-
 }
