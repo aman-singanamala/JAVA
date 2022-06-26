@@ -1,7 +1,7 @@
 package com.company.leetcode;
 import java.util.Arrays;
 
-public class two_sum_no_1 {
+public class problem_no_1 {
     public static void main(String[] args) {
         int[] a={2,3,4};
         int target=6;
