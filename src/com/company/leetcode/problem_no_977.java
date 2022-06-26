@@ -8,7 +8,6 @@ public class problem_no_977 {
         Arrays.sort(nums);
         return nums;
     }
-
     public static void main(String[] args) {
         int[] a={-4,-1,0,3,10};
         problem_no_977 ob= new problem_no_977();
@@ -17,4 +16,6 @@ public class problem_no_977 {
             System.out.print(ans[i]+" ");
         }
     }
+
+
 }
