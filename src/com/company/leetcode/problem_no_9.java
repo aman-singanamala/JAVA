@@ -8,13 +8,11 @@ public class problem_no_9 {
         int temp = x;
         int reversed = 0;
         while (temp != 0) {
-            reversed = reversed * 10 + reversed % 10;
+            reversed = reversed * 10 + temp % 10;
             temp/= 10;
         }
         return x== reversed;
     }
-
-
 
     public static void main(String[] args) {
         problem_no_9 ob= new problem_no_9();
