@@ -1,5 +1,6 @@
 package com.company.LinkedList;
 
+
 public class LL2 {
     static Node head;
     private static int size;
@@ -16,7 +17,6 @@ public class LL2 {
             size++;
         }
     }
-
     public void addFirst(String data) {
         Node newNode = new Node(data);
         newNode.next = null;
@@ -27,7 +27,6 @@ public class LL2 {
         newNode.next = head;
         head = newNode;
     }
-
     public void printList() {
         if (head == null) {
             System.out.println("List is empty");
@@ -44,6 +43,8 @@ public class LL2 {
             System.out.println("The list is empty");
             return;
         }
+// Size
+
         size--;
 
         // move the head to next node
