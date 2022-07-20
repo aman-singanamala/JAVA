@@ -1,5 +1,4 @@
 package com.company.leetcode;
-
 public class problem_no_1859 {
     public String sortSentence(String s){
         String array[] = s.split(" "); // convert the string into array inoring spaces
@@ -16,13 +15,11 @@ public class problem_no_1859 {
         }
         return result.trim();
     }
-
     public static void main(String[] args) {
         problem_no_1859 ob= new problem_no_1859();
         String ans= ob.sortSentence("is2 sentence4 This1 a3");
         System.out.println(ans);
     }
-
     // array[]= 1,2,3,4
     // temp[]= 0 1 2 3
 }
