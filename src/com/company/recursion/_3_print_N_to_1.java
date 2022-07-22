@@ -12,4 +12,3 @@ public class _3_print_N_to_1 {
         print(n-1);
     }
 }
-
