@@ -1,7 +1,5 @@
 package com.company.HashMap;
-
 import java.util.HashMap;
-
 public class B {
     public static void main(String[] args) {
         // No need to mention the

@@ -1,7 +1,5 @@
 package com.company.HashMap;
-
 import java.util.HashMap;
-
 public class F {
     public static void main(String[] args) {
         HashMap<Integer,String> map = new HashMap<>();
