@@ -139,6 +139,18 @@ public class PRACTICE {
         }
         System.out.println("END");
     }
+
+
+    //insert using recursion
+    public void insertRecursion(int val,int index){
+
+    }
+
+
+
+
+
+
     public static void main(String[] args) {
         PRACTICE list = new PRACTICE();
 //        list.insert(11);
@@ -167,5 +179,6 @@ public class PRACTICE {
         System.out.println(list.size);
         Node a= list.find(4);
         System.out.println(a.data);
+
     }
 }
