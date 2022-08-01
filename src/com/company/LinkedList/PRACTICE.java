@@ -3,9 +3,11 @@ public class PRACTICE {
     private Node head;
     private Node tail;
     private int size;
+
     public PRACTICE(){
         this.size=size;
     }
+
     private class Node{
         private int data;
         private Node next;
@@ -18,6 +20,8 @@ public class PRACTICE {
             this.next = next;
         }
     }
+
+
     public void insert(int val){
         // Create a new node with data is val
         Node newNode = new Node(val);
@@ -30,6 +34,7 @@ public class PRACTICE {
         }
         size++;
     }
+
     public void insertLast(int val){
         //if tail is empty call the insert first function
         if(tail==null){
@@ -75,6 +80,22 @@ public class PRACTICE {
         temp.next= newNode;
         size++;
     }
+
+    // insert using recursion
+    public void insertRec(int val,int index){
+        head= insertRec(val,index,head);
+    }
+
+    private Node insertRec(int val, int index, Node node){
+        if(index==0){
+            Node temp= new Node(val,node);
+            size++;
+            return temp;
+        }
+        node.next=insertRec(val,index--,node.next);
+        return node;
+    }
+
     public int deleteFirst(){
         int val= head.data;
         head= head.next;
@@ -84,25 +105,7 @@ public class PRACTICE {
         size--;
         return val;
     }
-    //Find the node with a given value O(n)
-    public Node find(int value){
-        Node node= head;
-        while(node!=null){
-            if(node.data==value){
-                return node;
-            }
-            node=node.next;
-        }
-        return null;
-    }
-    // get the node at a given index
-    public Node get(int index){
-        Node node = head;
-        for(int i=0;i<index;i++){
-            node=node.next;
-        }
-        return node;
-    }
+
     public int deleteLast(){
         if(size<=1){
             return deleteFirst();
@@ -130,6 +133,27 @@ public class PRACTICE {
         return val;
     }
 
+    //Find the node with a given value O(n)
+    public Node find(int value){
+        Node node= head;
+        while(node!=null){
+            if(node.data==value){
+                return node;
+            }
+            node=node.next;
+        }
+        return null;
+    }
+
+    // get the node at a given index
+    public Node get(int index){
+        Node node = head;
+        for(int i=0;i<index;i++){
+            node=node.next;
+        }
+        return node;
+    }
+
     public void display(){
         Node temp = head;
         while(temp!=null){
@@ -139,17 +163,6 @@ public class PRACTICE {
         }
         System.out.println("END");
     }
-
-
-    //insert using recursion
-    public void insertRecursion(int val,int index){
-
-    }
-
-
-
-
-
 
     public static void main(String[] args) {
         PRACTICE list = new PRACTICE();
@@ -178,7 +191,8 @@ public class PRACTICE {
         list.display();
         System.out.println(list.size);
         Node a= list.find(4);
-        System.out.println(a.data);
+//        list.insertRec(88,5);
+//        list.display();
 
     }
 }
