@@ -21,7 +21,6 @@ public class PRACTICE {
         }
     }
 
-
     public void insert(int val){
         // Create a new node with data is val
         Node newNode = new Node(val);
@@ -92,7 +91,7 @@ public class PRACTICE {
             size++;
             return temp;
         }
-        node.next=insertRec(val,index--,node.next);
+        node.next=insertRec(val,index-1,node.next);
         return node;
     }
 
@@ -191,8 +190,8 @@ public class PRACTICE {
         list.display();
         System.out.println(list.size);
         Node a= list.find(4);
-//        list.insertRec(88,5);
-//        list.display();
+        list.insertRec(88,5);
+        list.display();
 
     }
 }
