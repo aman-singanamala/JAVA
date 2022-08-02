@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class problem_no_15_not_done {
-    public List<List<Integer>> threeSum(int[] nums) {
+public class problem_no_15 {
+    public List<List<Integer>> threeSum(int[] nums){
         List<List<Integer>> triplets= new ArrayList<>();
         Arrays.sort(nums);
         int n= nums.length;
@@ -23,7 +23,6 @@ public class problem_no_15_not_done {
                     k--;
                     while(j<k && nums[j]==nums[j-1]){
                         j++;
-
                     }
                 } else if (nums[i]+nums[j]+nums[k]<0) {
                     j++;
@@ -37,13 +36,9 @@ public class problem_no_15_not_done {
     }
 
     public static void main(String[] args) {
-        problem_no_15_not_done ob = new problem_no_15_not_done();
-        int[] a= {-1,0,1,2,-1,-4};
+        int[] a = {1,0,1,2,-1,-4};
+        problem_no_15 ob= new problem_no_15();
         List<List<Integer>> ans = ob.threeSum(a);
         System.out.println(ans);
     }
 }
-
-
-
-
