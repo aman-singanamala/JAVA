@@ -18,5 +18,6 @@ public class _1_sum_of_values_in_array {
         }
         System.out.println("Sum of elements in the arrays is:");
         add(array);
+        // addition
     }
 }
