@@ -32,7 +32,6 @@ public class problem_no_350 {
         }
         return result;
     }
-
     public static void main(String[] args) {
         problem_no_350 ob= new problem_no_350();
         int[] a= {1,1,2,5,1,2,2};
