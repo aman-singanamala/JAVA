@@ -1,4 +1,4 @@
-package sliding_window;
+package com.company.sliding_window;
 // https://leetcode.com/problems/implement-strstr/
 public class substring {
     //Given two strings needle and haystack, return the index of the first occurrence of needle in haystack
