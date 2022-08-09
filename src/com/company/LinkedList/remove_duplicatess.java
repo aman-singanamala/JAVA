@@ -1,14 +1,14 @@
 package com.company.LinkedList;
 
-import java.util.HashSet;
-
-public class REMOVE_DUPLICATES {
+public class remove_duplicatess {
     private Node head;
     private Node tail;
     private int size;
-    public REMOVE_DUPLICATES(){
+
+    public remove_duplicatess(){
         this.size=size;
     }
+
     private class Node{
         private int data;
         private Node next;
@@ -21,53 +21,50 @@ public class REMOVE_DUPLICATES {
             this.next = next;
         }
     }
-    public void insert(int val){
-        // Create a new node with data is val
-        Node newNode = new Node(val);
-        // Point the next pointer to head of the new node
+    public void insert(int data){
+        Node newNode = new Node(data);
         newNode.next=head;
-        // head always points to starting node
         head= newNode;
         if(tail==null){
-            tail=head;
+            tail= head;
         }
         size++;
     }
-    public void Remove(){
-        Node node= head;
-        while(node.next!=null){
-            if(node.data == node.next.data){
-                node.next=node.next.next;
-                size--;
-            }
-            else{
-                node=node.next;
-            }
-        }
-        tail=node;
-        tail.next=null;
-    }
     public void display(){
-        Node temp = head;
+        Node temp= head;
         while(temp!=null){
             System.out.print(temp.data+" -> ");
-
             temp=temp.next;
         }
-        System.out.println("END");
+    }
+    public void remove(){
+        Node temp= head;
+        while(temp.next!=null){
+            if(temp.data==temp.next.data){
+                temp.next= temp.next.next;
+            }
+            else{
+                temp=temp.next;
+            }
+        }
+        tail= temp;
+        tail.next=null;
     }
 
     public static void main(String[] args) {
-        REMOVE_DUPLICATES list = new REMOVE_DUPLICATES();
+        remove_duplicatess list= new remove_duplicatess();
+        list.insert(1);
         list.insert(1);
         list.insert(1);
         list.insert(2);
         list.insert(3);
         list.insert(3);
-        list.insert(3);
+        list.insert(4);
+        list.insert(4);
+        list.insert(6);
+        list.remove();
+        list.display();
 
-        list.display();
-        list.Remove();
-        list.display();
     }
+
 }

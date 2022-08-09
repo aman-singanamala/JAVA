@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class problem_no_202 {
-    public boolean isHappy(int n){
-        HashSet<Integer> set= new HashSet<>();
+    public boolean isHappy(int n) {
+        HashSet<Integer> set = new HashSet<>();
         while(true){
             n= func(n);
             if(n==1){
@@ -16,13 +16,13 @@ public class problem_no_202 {
             set.add(n);
         }
     }
-    static int func(int n){
-        int result=0;
-        while(n!=0){
-            result= (int) (result+Math.pow(n%10,2));
-            n=n/10;
+    static int func(int num){
+        int res=0;
+        while(num>0){
+            res= (int) (res+(Math.pow(num%10,2)));
+            num=num/10;
         }
-        return result;
+        return res;
     }
 
     public static void main(String[] args) {
