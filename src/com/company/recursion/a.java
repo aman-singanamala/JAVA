@@ -1,6 +1,6 @@
 package com.company.recursion;
 import java.lang.*;
-import java.util.*;
+
 public class a {
     public static int count =0;
     public static void main(String[] args){
@@ -38,8 +38,10 @@ public class a {
         System.out.println(ans);*/
 
         // FIBONACCI NUMBER
-        int ans = fibo(4);
-        System.out.println(ans);
+        /*int ans = fibo(4);
+        System.out.println(ans);*/
+
+        subseq("","abcd");
 
     }
     public static void func(){
@@ -189,6 +191,30 @@ public class a {
             return n;
         }
         return fibo(n-1)+fibo(n-2);
+    }
+
+  /*public static void subsequence(int arr[], int index, ArrayList<Integer> list){
+        if(index== arr.length){
+            if(list.size()>0){
+                System.out.println(list);
+            }
+        }
+        else{
+            subsequence(arr,index+1,list);
+
+        }
+    }*/
+
+    //
+
+    public static void subseq(String p,String up){
+        if(up.isEmpty()){
+            System.out.println(p);
+            return ;
+        }
+        char ch=  up.charAt(0);
+        subseq(p+ch,up.substring(1));
+        subseq(p,up.substring(1));
     }
 
 
