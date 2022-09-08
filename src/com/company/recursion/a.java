@@ -37,6 +37,9 @@ public class a {
         /*boolean ans= palindrome(0,"madama");
         System.out.println(ans);*/
 
+        // FIBONACCI NUMBER
+        int ans = fibo(4);
+        System.out.println(ans);
 
     }
     public static void func(){
@@ -181,4 +184,13 @@ public class a {
         }
          return palindrome(i+1,str);
     }
+    public static int fibo(int n){
+        if(n<=1){
+            return n;
+        }
+        return fibo(n-1)+fibo(n-2);
+    }
+
+
+
 }
