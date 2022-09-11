@@ -211,6 +211,7 @@ public class a {
         if(up.isEmpty()){
             System.out.println(p);
             return ;
+
         }
         char ch=  up.charAt(0);
         subseq(p+ch,up.substring(1));
