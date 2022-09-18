@@ -143,7 +143,23 @@ public class PRACTICE {
         }
         return null;
     }
-
+    public void reverse(){
+        if(size<2){
+            return ;
+        }
+        Node prev= null;
+        Node present = head;
+        Node next= present.next;
+        while(present != null){
+            present.next= prev;
+            prev= present;
+            present=next;
+            if(next !=null){
+                next= next.next;
+            }
+        }
+        head= prev;
+    }
     // get the node at a given index
     public Node get(int index){
         Node node = head;
@@ -165,32 +181,35 @@ public class PRACTICE {
 
     public static void main(String[] args) {
         PRACTICE list = new PRACTICE();
-//        list.insert(11);
-//        list.insert(12);
-//        list.insert(13);
-//        list.insert(14);
+        list.insert(11);
+        list.insert(12);
+        list.insert(13);
+        list.insert(14);
+
 //        list.insertLast(15);
 //        list.insertIndex(10,0);
 //        list.insertIndex(16,6);
-        list.insert(1);
-        list.insert(2);
-        list.insert(3);
-        list.insert(4);
-        list.insert(5);
-        list.insert(6);
-        list.insert(7);
-        list.insert(8);
-        list.display();
-        //4 -> 3 -> 2 -> 1 -> END
-        System.out.println("Item deleted at first is : "+list.deleteFirst());
-        list.display();
-        System.out.println("Item deleted at last is : "+list.deleteLast());
-        list.display();
-        System.out.println("Item deleted at index 5 is :"+list.deleteIndex(5));
-        list.display();
-        System.out.println(list.size);
-        Node a= list.find(4);
-        list.insertRec(88,5);
+//        list.insert(1);
+//        list.insert(2);
+//        list.insert(3);
+//        list.insert(4);
+//        list.insert(5);
+//        list.insert(6);
+//        list.insert(7);
+//        list.insert(8);
+//        list.display();
+//        //4 -> 3 -> 2 -> 1 -> END
+//        System.out.println("Item deleted at first is : "+list.deleteFirst());
+//        list.display();
+//        System.out.println("Item deleted at last is : "+list.deleteLast());
+//        list.display();
+//        System.out.println("Item deleted at index 5 is :"+list.deleteIndex(5));
+//        list.display();
+//        System.out.println(list.size);
+//        Node a= list.find(4);
+//        list.insertRec(88,5);
+//        list.display();
+        list.reverse();
         list.display();
 
     }
