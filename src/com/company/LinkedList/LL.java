@@ -1,10 +1,10 @@
 package com.company.LinkedList;
-public class PRACTICE {
+public class LL {
     private Node head;
     private Node tail;
     private int size;
 
-    public PRACTICE(){
+    public LL(){
         this.size=size;
     }
 
@@ -143,6 +143,33 @@ public class PRACTICE {
         }
         return null;
     }
+
+    public static LL mergelists(LL first, LL second){
+        Node f= first.head;
+        Node s= second.head;
+        LL ans = new LL();
+        while(f!= null && s!= null){
+            if(f.data<= s.data){
+                ans.insertLast( f.data);
+                f=f.next;
+                }else{
+                    ans.insertLast(s.data);
+                    s=s.next;
+                }
+            }
+        while(f!=null){
+            ans.insertLast(f.data);
+            f=f.next;
+        }
+        while(s!=null){
+            ans.insertLast(s.data);
+            s=s.next;
+        }
+        return ans;
+    }
+
+
+    // Reverse a Linked List
     public void reverse(){
         if(size<2){
             return ;
@@ -160,6 +187,10 @@ public class PRACTICE {
         }
         head= prev;
     }
+
+
+
+
     // get the node at a given index
     public Node get(int index){
         Node node = head;
@@ -180,12 +211,11 @@ public class PRACTICE {
     }
 
     public static void main(String[] args) {
-        PRACTICE list = new PRACTICE();
-        list.insert(11);
-        list.insert(12);
-        list.insert(13);
-        list.insert(14);
-
+//        LL list = new LL();
+//        list.insert(11);
+//        list.insert(12);
+//        list.insert(13);
+//        list.insert(14);
 //        list.insertLast(15);
 //        list.insertIndex(10,0);
 //        list.insertIndex(16,6);
@@ -209,8 +239,20 @@ public class PRACTICE {
 //        Node a= list.find(4);
 //        list.insertRec(88,5);
 //        list.display();
-        list.reverse();
-        list.display();
+//        list.reverse();
+//        list.display();
+        LL first= new LL();
+        LL second = new LL();
+        first.insertLast(1);
+        first.insertLast(3);
+        first.insertLast(5);
+        second.insertLast(1);
+        second.insertLast(2);
+        second.insertLast(9);
+        second.insertLast(14);
+
+        LL ans =LL.mergelists(first, second);
+        ans.display();
 
     }
 }
