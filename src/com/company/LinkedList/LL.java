@@ -149,8 +149,8 @@ public class LL {
         Node s= second.head;
         LL ans = new LL();
         while(f!= null && s!= null){
-            if(f.data<= s.data){
-                ans.insertLast( f.data);
+            if(f.data< s.data){
+                ans.insertLast(f.data);
                 f=f.next;
                 }else{
                     ans.insertLast(s.data);
@@ -198,6 +198,10 @@ public class LL {
             node=node.next;
         }
         return node;
+    }
+
+    public boolean isPalindrome(){
+        return true;
     }
 
     public void display(){
