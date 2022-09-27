@@ -3,7 +3,6 @@ import java.util.Arrays;
 public class product_self {
     static int[] func(int[] array,int n){
         int[] ans= new int[n];
-        int k=0;
         for(int i=0;i<n;i++){
             int product= 1;
             for(int j=0;j<n;j++){

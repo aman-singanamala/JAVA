@@ -50,6 +50,10 @@ public class LL_middle {
             System.out.println(temp.data);
         }
     }
+
+    public void reverse(){
+
+    }
     public static void main(String[] args){
         LL_middle list = new LL_middle();
         list.pushNode(5);

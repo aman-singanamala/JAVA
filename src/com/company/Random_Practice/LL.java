@@ -83,6 +83,23 @@ public class LL {
         size--;
         return val;
     }
+    public void reverse(){
+        if(size<2){
+            return ;
+        }
+        Node prev= null;
+        Node present = head;
+        Node next= present.next;
+        while(present!= null){
+            present.next= prev;
+            prev= present;
+            present= next;
+            if(next!=null){
+                next = next.next;
+            }
+        }
+        head= prev;
+    }
 
 
     public static void main(String[] args){
@@ -93,10 +110,11 @@ public class LL {
         list.insertFirst(20);
         list.printlist();
 
-        list.deleteFirst();
+        //list.deleteFirst();
         System.out.println( );
-        list.printlist();
 
+        list.reverse();
+        list.printlist();
     }
 
 
