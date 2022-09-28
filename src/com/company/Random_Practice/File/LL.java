@@ -84,6 +84,5 @@ public class LL {
         list2.insertLast(20);
         LL ans= LL.mergeLists(list1, list2);
         ans.printlist();
-
     }
 }
