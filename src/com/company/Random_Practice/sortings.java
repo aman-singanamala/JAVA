@@ -1,6 +1,12 @@
 package com.company.Random_Practice;
 
 public class sortings {
+    static void swap(int[] array, int a, int b){
+        int temp= array[a];
+        array[a]= array[b];
+        array[b]= temp;
+
+    }
     static void insertionsort(int[] array){
         for (int i = 0; i < array.length-1; i++) {
             for(int j=i+1;j>0;j--){
@@ -36,11 +42,21 @@ public class sortings {
             }
         }
     }
-    static void swap(int[] array, int a, int b){
-        int temp= array[a];
-        array[a]= array[b];
-        array[b]= temp;
-
+    static void selection_sort(int[] array){
+        for (int i = 0; i < array.length; i++) {
+            int last= array.length-i-1;
+            int MaxIndex=getMaxIndex(array,0, last);
+            swap(array, MaxIndex, last);
+        }
+    }
+    static int getMaxIndex(int[] array, int start, int end){
+        int max= start;
+        for(int i=start;i<end;i++){
+            if(array[max]< array[i]){
+                max= i;
+            }
+        }
+        return max;
     }
     static void printarr(int[] array){
         for (int i = 0; i < array.length; i++) {
@@ -53,7 +69,8 @@ public class sortings {
         int[] a= {5,9,7,-99,100,0,1000,1111,-1111};
 //        insertionsort(a);
 //        bubblesort(a);
-        bubble_sort_optimized(a);
+//        bubble_sort_optimized(a);
+        selection_sort(a);
         printarr(a);
     }
 }
