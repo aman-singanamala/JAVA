@@ -1,6 +1,6 @@
 package com.company.sortings.quick_sort;
 
-public class sort {
+public class sort1 {
     public static void main(String[] args) {
         int[] arr={5,4,3,2,1};
         quick_sort(arr, 0, arr.length-1);

@@ -1,5 +1,7 @@
 package com.company.Random_Practice;
 
+import java.util.Collections;
+
 public class sortings {
     static void swap(int[] array, int a, int b){
         int temp= array[a];
@@ -58,9 +60,35 @@ public class sortings {
         }
         return max;
     }
+    static void quicksort(int[] array, int start, int end) {
+        if(start<end){
+            int partitionIndex= Partition(array,start, end);
+            quicksort(array,start, partitionIndex-1);
+            quicksort(array,partitionIndex+1, end);
+        }
+
+    }
+    static int Partition(int[] array, int start, int end){
+        int pivot= array[end-1];
+        int partitionIndex= start; // set partition index as start initially
+        for(int i=start;i<end;i++){
+            if(array[i]<=pivot){
+                int temp= array[i];
+                array[i]= array[partitionIndex];
+                array[partitionIndex]= temp;
+                partitionIndex++;
+            }
+        }
+        int temp= array[partitionIndex];
+        array[partitionIndex]= array[end-1];
+        array[end-1]=temp;
+
+        return partitionIndex;
+    }
+
     static void printarr(int[] array){
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
+        for (int j : array) {
+            System.out.print(j + " ");
         }
     }
 
@@ -70,7 +98,8 @@ public class sortings {
 //        insertionsort(a);
 //        bubblesort(a);
 //        bubble_sort_optimized(a);
-        selection_sort(a);
+//        selection_sort(a);
+        quicksort(a,0,a.length);
         printarr(a);
     }
 }
