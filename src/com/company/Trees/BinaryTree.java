@@ -1,31 +1,47 @@
 package com.company.Trees;
+
 public class BinaryTree {
-    private TreeNode root;
-    private class TreeNode{
-        private int data; // can be any generic type
-        private TreeNode left;
-        private TreeNode right;
-        public TreeNode(int data){
-            this.data=data;
+
+    class Node
+    {
+        int data;
+        Node left, right;
+
+        public Node(int data)
+        {
+            this.data = data;
+            this.left = null;
+            this.right = null;
         }
     }
-    public void createBinaryTree(){
-        TreeNode first= new TreeNode(1);
-        TreeNode second= new TreeNode(2);
-        TreeNode third= new TreeNode(3);
-        TreeNode fourth= new TreeNode(4);
-        TreeNode fifth= new TreeNode(5);
-        root= first;
-        first.left= second;
-        first.right=third;
-        second.left=fourth;
-        second.right=fifth;
-        /*
-            1
-           / \
-          2   3
-         / \
-        4   5
-         */
+
+
+    public Node insert(Node root, int value) {
+        // if the root is null. create a new node and return it.
+        if (root == null) {
+            root = new Node(value);
+            return root;
+        }
+        // if the data is smaller than the root's data, recur for left subtree
+        if (value < root.data) {
+            root.left = insert(root.left, value);
+        }
+        // if the data is greater than the root's data, recur for right subtree
+        else if (value > root.data) {
+            root.right = insert(root.right, value);
+        }
+        return root;
     }
+
+
+    
+
+
+
+
+
+
+
+
+
 }
