@@ -1,4 +1,4 @@
-package com.company.Stack;
+package com.company.Stack_and_Queue;
  // https://takeuforward.org/data-structure/implement-stack-using-array/
 public class _4_implement_using_array {
      public static void main(String[] args) {
