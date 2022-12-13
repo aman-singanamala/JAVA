@@ -1,5 +1,10 @@
 package com.company.Trees;
 
+import javax.swing.tree.TreeNode;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 public class BinaryTree {
 
     class Node
@@ -31,6 +36,53 @@ public class BinaryTree {
             root.right = insert(root.right, value);
         }
         return root;
+    }
+
+    static void inorderTraversal(Node root){
+        // create an empty stack
+        Stack<Node> stack= new Stack<Node>();
+        Node curr= root;
+
+        // while the stack is not empty, or the current node is not null
+        while(curr!=null || !stack.empty()){
+            // if the curr is not null, push it to the stack and move to its left child
+            if(curr!=null){
+                stack.push(curr);
+                curr=curr.left;
+            }
+
+            // if the current node is null, we pop the node from the stack,
+            // print its value, and then move to its right child
+
+            else{
+                Node node = stack.pop();
+                System.out.print(node.data+" ");
+                curr=node.right;
+            }
+        }
+    }
+    static void preorderTraversal(Node root){
+        // create an empty stack
+        Stack<Node> stack= new Stack<>();
+        // push the root node to the stack
+        stack.push(root);
+
+
+        // while the stack is not empty
+        while(!stack.empty()) {
+            Node node = stack.pop();
+            System.out.print(node.data + " ");
+
+
+            // push the right element of the popped node to the stack if it exists
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+            // push the left child of the popped node to the stack if it exists
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
     }
 
 
