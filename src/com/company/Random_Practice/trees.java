@@ -80,6 +80,33 @@ public class trees {
             }
         }
     }
+    static void inorderI(Node root){
+        if(root==null){
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+        Node curr= root;
+        while(!stack.empty() || curr!=null){
+            if(curr!=null){
+                stack.push(curr);
+                curr=curr.left;
+            }
+            // if the current node is not null, push it to the stack
+            // and move to its left child
+            else{
+                Node node= stack.pop();
+                System.out.print(node.val+" ");
+                curr=node.right;
+            }
+        }
+    }
+    static void postorderI(Node root){
+        if(root==null){
+            return;
+        }
+        Stack<Node> stack = new Stack<>();
+
+    }
 
     public static void main(String[] args) {
         Node root = new Node(1);
@@ -88,7 +115,9 @@ public class trees {
         root.right.left = new Node(4);
         root.right.right = new Node(5);
 
-        bfs(root);
+
+        System.out.println();
+        postorderI(root);
     }
 
 }
