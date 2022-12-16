@@ -6,24 +6,25 @@ import java.util.List;
 
 public class problem_no_15_not_done {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> triplets= new ArrayList<>();
+        List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
         int n= nums.length;
-        for (int i = 0; i < n; i++) {
+        for(int i=0;i<n;i++){
             if(i>0 && nums[i]==nums[i-1]){
                 continue;
             }
             int j=i+1;
             int k=n-1;
-            while (j<k){
-                if(nums[i]+nums[j]+nums[k]==0){
-                    triplets.add(Arrays.asList(nums[i],nums[j],nums[k]));
+            while(j<k){
+                if(nums[i]+ nums[j]+nums[k]==0){
+                    list.add(Arrays.asList(nums[i],nums[j],nums[k]));
                     j++;
                     k--;
                     while(j<k && nums[j]==nums[j-1]){
                         j++;
                     }
-                } else if (nums[i]+nums[j]+nums[k]<0) {
+                }
+                else if(nums[i]+ nums[j]+nums[k]<0){
                     j++;
                 }
                 else{
@@ -31,7 +32,7 @@ public class problem_no_15_not_done {
                 }
             }
         }
-        return triplets;
+        return list;
     }
 
     public static void main(String[] args) {
