@@ -60,6 +60,25 @@ public class trees {
             }
         }
     }
+    static void bffs(Node root){
+        if(root==null)
+        {
+            return;
+        }
+        Queue<Node> queue= new LinkedList<>();
+        queue.add(root);
+        while(!queue.isEmpty()){
+            Node curr= queue.remove();
+            System.out.println(curr.val+" ");
+
+            if(curr.left!=null){
+                queue.add(curr.left);
+            }
+            if(curr.right!=null){
+                queue.add(curr.right);
+            }
+        }
+    }
     static void preorderI(Node root){
         if(root==null){
             return;
