@@ -20,7 +20,7 @@ public class graph {
     public void addEdge(int u, int v){
         adj.get(u).add(v);
     }
-    public ArrayList bfs(int s){
+    public ArrayList<Integer> bfs(int s){
         Queue<Integer> q= new LinkedList<>();
         ArrayList<Integer> bfs= new ArrayList<Integer>();
         boolean[] vis= new boolean[N];
