@@ -29,13 +29,11 @@ public class graph {
         bfs.add(s);
         while(!q.isEmpty()){
             int curr= q.poll();
-
             ArrayList<Integer> neighbours = adj.get(curr);
             for(int neighbour : neighbours){
                 if(!vis[neighbour]){
                     vis[neighbour]=true;
                     q.offer(neighbour);
-
                     bfs.add(neighbour);
                 }
             }
