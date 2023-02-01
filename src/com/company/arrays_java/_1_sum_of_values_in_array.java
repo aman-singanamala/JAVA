@@ -6,6 +6,7 @@ public class _1_sum_of_values_in_array {
         for (int j : array) {
             sum = sum + j;
         }
+        
         System.out.println(sum);
     }
     public static void main(String[] args) {
