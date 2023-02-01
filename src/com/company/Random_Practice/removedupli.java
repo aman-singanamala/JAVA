@@ -15,6 +15,5 @@ public class removedupli {
          for(Character c: ans){
              System.out.println(c);
          }
-
     }
 }
