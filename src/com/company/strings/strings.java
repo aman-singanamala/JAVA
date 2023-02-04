@@ -1,4 +1,4 @@
-package com.company.string_stringBuilder;
+package com.company.strings;
 public class strings {
     public static void main(String[] args){
         String a= "aman";
