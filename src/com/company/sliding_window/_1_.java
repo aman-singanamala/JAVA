@@ -52,19 +52,18 @@ public class _1_ {
         while (windowEnd < array.length) {
             windowSum = windowSum + array[windowEnd];
 
-            // check if the current window has k elements
-            if (windowEnd >= k - 1) {
-                // update the maximum value if the windowSum is greater
-                maxSum = Math.max(maxSum, windowSum);
-                // remove the first element of the window and slide the window to the right
-                windowSum = windowSum - array[windowStart];
+            if(windowEnd-windowStart+1<k){
+                windowEnd++;
+            } else if (windowEnd-windowStart+1==k) {
+                maxSum=Math.max(maxSum, windowSum);
 
+                windowSum= windowSum- array[windowStart];
                 windowStart++;
-
+                windowEnd++;
             }
-            // move the window to the right
-            windowEnd++;
+
         }
+
         return maxSum;
     }
 
