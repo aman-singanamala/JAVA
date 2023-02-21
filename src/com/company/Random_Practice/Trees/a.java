@@ -58,7 +58,7 @@ public class a {
 
 
     // bfs
-    static ArrayList bfs(Node root){
+    static ArrayList<Integer> bfs(Node root){
         Queue<Node> queue= new LinkedList<>();
         queue.offer(root);
         ArrayList<Integer> result= new ArrayList<>();
