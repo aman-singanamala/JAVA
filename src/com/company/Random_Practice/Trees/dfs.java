@@ -1,8 +1,6 @@
 package com.company.Random_Practice.Trees;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 class Node {
     int data;
@@ -52,6 +50,38 @@ public class dfs {
 
         ArrayList<Integer> dfslist=  dfs_traversal(root);
         System.out.println(dfslist);
+    }
+
+
+    static ArrayList<ArrayList<Integer>> levelordertraversal(Node root){
+        ArrayList<ArrayList<Integer>> result= new ArrayList<>();
+        Queue<Node> q= new LinkedList<>();
+
+        if(root==null){
+            return result;
+        }
+        q.offer(root);
+        while (!q.isEmpty()){
+            ArrayList<Integer> sublist= new ArrayList<>();
+            int size= q.size();
+
+
+            for (int i = 0; i < size; i++) {
+                Node node= q.poll();
+
+                sublist.add(node.data);
+                if(node.left!=null){
+                    q.offer(node.left);
+                }
+                if(node.right!=null){
+                    q.offer(node.right);
+                }
+            }
+
+
+            result.add(sublist);
+        }
+        return result;
     }
 
 }
