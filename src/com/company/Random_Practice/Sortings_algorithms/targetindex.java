@@ -14,8 +14,7 @@ public class targetindex {
 
 
     public static int binarySearchUsingMergeSort(int[] arr, int target) {
-        int result = mergeSortWithIndex(arr, target, 0, arr.length - 1);
-        return result;
+        return mergeSortWithIndex(arr, target, 0, arr.length - 1);
     }
 
     private static int mergeSortWithIndex(int[] arr, int target, int start, int end) {
