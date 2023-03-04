@@ -1,6 +1,6 @@
 package com.company.leetcode;
 
-import com.company.Random_Practice.trees;
+
 
 public class problem_no_110 {
     static class Node{
