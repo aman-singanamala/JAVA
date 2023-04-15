@@ -1,8 +1,6 @@
 package com.company.Random_Practice.TCS_NINJA;
-
 import java.util.LinkedHashSet;
 import java.util.Scanner;
-
 public class REPEATED_RANGE {
     public static boolean check(int n){
         LinkedHashSet<Integer> s= new LinkedHashSet<>();
@@ -25,10 +23,8 @@ public class REPEATED_RANGE {
                 count++;
             }
         }
-
         return count;
     }
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n1= in.nextInt();
