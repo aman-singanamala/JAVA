@@ -8,7 +8,6 @@ public class LL3 {
         this.size=0;
     }
 
-
     public void insertFirst(int val){
         Node node= new Node(val); // create a new node with value = val
         node.next=head; //assign the new node's next to head;
